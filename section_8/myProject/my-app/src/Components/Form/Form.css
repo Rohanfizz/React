@@ -1,0 +1,45 @@
+.form-container{
+    
+    background: rgb(158, 188, 255);
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    position: absolute;
+    left: calc((100vw - 40rem)/2);
+    top: 2rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.textbox{
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+.submit-form{
+    height: 3rem;
+    width: 9rem;
+    background-color:rgb(20, 73, 143);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.submit-form>*{
+    height: 3rem;
+    width: 9rem;
+    background-color:rgb(20, 73, 143);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}

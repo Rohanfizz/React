@@ -1,0 +1,18 @@
+.list-container{
+    background: rgb(40, 41, 41);
+    display: flex;
+    flex-direction: column;
+    /* height: 20rem; */
+    width: 40rem;
+    position: absolute;
+    left: calc((100vw - 40rem)/2);
+    top: 25rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.hide{
+    display: none;
+}

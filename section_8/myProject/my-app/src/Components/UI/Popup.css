@@ -1,0 +1,35 @@
+.popup{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgba(0,0,0,0.2);
+    z-index: 100;
+    
+}
+.popup-inner{
+    background-color:aqua;
+    font-size: 2.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 20rem;
+    width: 30rem;
+    top: calc((100% - 20rem)/2);
+    left: calc((100% - 30rem)/2);
+    gap:3rem;
+}
+.popup-inner button{
+    font-size: 2rem;
+    background-color: rgb(182, 182, 255);
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 8rem;
+    height: 4rem;
+    position: absolute;
+    top:15rem;
+}
+.hide{
+    display: none;
+}
